@@ -1,14 +1,12 @@
 image: Ubuntu1604
 environment:
   matrix:
-    # For Python versions available on Appveyor, see
-    # http://www.appveyor.com/docs/installed-software#python
-    - TOXENV: "py38"
+  - TOXENV: py38
 
 build: off
 
 install:
-  - pip install tox
+- pip install tox
 
 test_script:
-  - tox -e %TOXENV%
+- tox
