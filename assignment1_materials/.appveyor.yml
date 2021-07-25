@@ -1,0 +1,14 @@
+
+environment:
+  matrix:
+    # For Python versions available on Appveyor, see
+    # http://www.appveyor.com/docs/installed-software#python
+    - TOXENV: "py39"
+
+install:
+  - pip install tox
+
+build: off
+
+test_script:
+  - tox -e %TOXENV%

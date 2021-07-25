@@ -32,8 +32,8 @@ class Solution:
             Homography from source to destination, 3x3 numpy array.
         """
         # return homography
-        """INSERT YOUR CODE HERE"""
-        pass
+        """INSERT YOUR CODE HERE, overrun return."""
+        return np.ones((3, 3))
 
     @staticmethod
     def compute_forward_homography_slow(

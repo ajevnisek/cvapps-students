@@ -6,7 +6,7 @@ import matplotlib.image as mpimg
 from cv2 import resize, INTER_CUBIC
 from matplotlib.patches import Circle
 
-from ex1_student_solution import Solution
+from .ex1_student_solution import Solution
 
 
 ##########################################################
