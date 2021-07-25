@@ -1,9 +1,7 @@
 image: Ubuntu1604
 environment:
   matrix:
-  - TOXENV: py37
-  - TOXENV: py38
-  - TOXENV: py39
+  - PYTHON_VERSION: "3.7"
 
 build: off
 
