@@ -1,4 +1,4 @@
-from solution import Solution
+from cvapps_sol1_checker import Solution
 import numpy as np
 
 import pytest
