@@ -3,7 +3,7 @@ environment:
   matrix:
     # For Python versions available on Appveyor, see
     # http://www.appveyor.com/docs/installed-software#python
-    - TOXENV: "py39"
+    - TOXENV: "py38"
 
 install:
   - pip install tox
