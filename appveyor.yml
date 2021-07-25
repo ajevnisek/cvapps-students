@@ -1,4 +1,4 @@
-
+image: Ubuntu1604
 environment:
   matrix:
     # For Python versions available on Appveyor, see
