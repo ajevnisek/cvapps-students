@@ -1,2 +1,2 @@
 # cvapps-students
-Your solutions for CV-Apps exercises (-:
+Your solutions for CV-Apps exercise #1 (-:

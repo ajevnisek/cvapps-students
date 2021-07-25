@@ -5,9 +5,9 @@ version = '0.0.1'
 
 
 setup(
-    name='cvapps_sol_checker',
+    name='cvapps_sol1_checker',
     version=version,
-    description='CVApps course checker',
+    description='CVApps Assignment1 checker',
     long_description=open('README.md').read(),
     license='MIT',
     author='Amir Jevnisek',
