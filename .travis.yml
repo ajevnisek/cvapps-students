@@ -16,7 +16,7 @@ install:
 
   # Replace dep1 dep2 ... with your dependencies
   - conda env create --file environment.yml
-  - conda activate test-environment
+  - conda activate cvapps
   - python -m pip install .
 
 script: tox
