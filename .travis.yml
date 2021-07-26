@@ -1,3 +1,4 @@
+sudo: false
 language: python
 python:
   # We don't actually use the Travis Python, but this keeps it organized.
@@ -21,5 +22,4 @@ install:
   - conda activate test-environment
   - python -m pip install .
 
-script:
-  tox
+script: tox
