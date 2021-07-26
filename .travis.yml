@@ -1,7 +1,7 @@
 sudo: false
 language: python
 python:
-  - "3.8"
+  - "3.9"
 install:
   # We do this conditionally because it saves us some downloading if the
   # version is the same.
