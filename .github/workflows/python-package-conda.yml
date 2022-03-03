@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         conda env update --file environment.yml --name vp2022
+        conda init bash
         conda activate vp2022
         
     - name: Test with pytest
