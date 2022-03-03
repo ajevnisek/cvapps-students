@@ -1,4 +1,4 @@
-name: vp2022
+name: base
 channels:
   - conda-forge
   - defaults
