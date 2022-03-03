@@ -16,7 +16,6 @@ install:
 
   # Replace dep1 dep2 ... with your dependencies
   - conda env update --file environment.yml --name base
-  - conda activate base
   - python -m pip install .
 
 script:
