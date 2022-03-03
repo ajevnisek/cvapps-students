@@ -1,8 +1,4 @@
-import cv2
-import scipy
-import matplotlib
-import numpy as np
-
+from ..cvapps_sol1_checker import *
 import pytest
 
 
