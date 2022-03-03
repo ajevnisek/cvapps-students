@@ -17,7 +17,8 @@ install:
   # Replace dep1 dep2 ... with your dependencies
   - conda env create --file environment.yml
   - conda activate vp2022
-  - python -m pip install tox
   - python -m pip install .
 
-script: tox
+script:
+  - conda activate vp2022
+  - pytest src/tests/test_packages_versions.py
