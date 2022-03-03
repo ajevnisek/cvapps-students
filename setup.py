@@ -14,8 +14,6 @@ setup(
     author_email='ajevnisek@gmail.com',
     url='https://github.com/ajevnisek/cvapps-students.git',
     classifiers=[
-        'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'License :: OSI Approved :: MIT License',
     ],
