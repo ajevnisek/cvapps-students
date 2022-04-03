@@ -3,7 +3,7 @@ import pytest
 
 
 def test_cv2_version():
-    assert (cv2.__version__ == '4.5.4')
+    assert (cv2.__version__ == '4.5.2')
 
 
 def test_matplotlib_version():
@@ -11,4 +11,4 @@ def test_matplotlib_version():
 
 
 def test_numpy_version():
-    assert (np.__version__ == '1.19.5')
+    assert (np.__version__ == '1.21.1')
