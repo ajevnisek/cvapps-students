@@ -136,4 +136,3 @@ dependencies:
     - six==1.16.0
     - toml==0.10.2
     - tqdm==4.62.3
-prefix: /home/amir/anaconda3/envs/vp2022
