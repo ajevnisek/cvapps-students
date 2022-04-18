@@ -11,4 +11,4 @@ def test_matplotlib_version():
 
 
 def test_numpy_version():
-    assert (np.__version__ == '1.20.3')
+    assert (np.__version__ == '1.22.3')
