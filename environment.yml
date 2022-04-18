@@ -133,4 +133,4 @@ dependencies:
     - geodistk==0.1.7
     - numpy==1.22.3
     - pip==22.0.4
-prefix: /home/amir/anaconda3/envs/vpproj22
+
