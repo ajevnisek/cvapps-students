@@ -5,6 +5,7 @@ dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=4.5=1_gnu
   - asttokens=2.0.5=pyhd3eb1b0_0
+  - attrs=21.4.0=pyhd3eb1b0_0
   - backcall=0.2.0=pyhd3eb1b0_0
   - blas=1.0=openblas
   - blosc=1.21.0=h8c45485_0
@@ -43,6 +44,7 @@ dependencies:
   - icu=58.2=he6710b0_3
   - imagecodecs=2021.8.26=py39h4cda21f_0
   - imageio=2.9.0=pyhd3eb1b0_0
+  - iniconfig=1.1.1=pyhd3eb1b0_0
   - ipython=8.2.0=py39h06a4308_0
   - jedi=0.18.1=py39h06a4308_1
   - jpeg=9d=h7f8727e_0
@@ -105,12 +107,15 @@ dependencies:
   - pillow=9.0.1=py39h22f2fdc_0
   - pip=21.2.4=py39h06a4308_0
   - pixman=0.40.0=h7f8727e_1
+  - pluggy=1.0.0=py39h06a4308_1
   - prompt-toolkit=3.0.20=pyhd3eb1b0_0
   - ptyprocess=0.7.0=pyhd3eb1b0_2
   - pure_eval=0.2.2=pyhd3eb1b0_0
+  - py=1.11.0=pyhd3eb1b0_0
   - pygments=2.11.2=pyhd3eb1b0_0
   - pyparsing=3.0.4=pyhd3eb1b0_0
   - pyqt=5.9.2=py39h2531618_6
+  - pytest=7.1.1=py39h06a4308_0
   - python=3.9.12=h12debd9_0
   - python-dateutil=2.8.2=pyhd3eb1b0_0
   - pywavelets=1.1.1=py39h6323ea4_4
@@ -126,6 +131,7 @@ dependencies:
   - stack_data=0.2.0=pyhd3eb1b0_0
   - tifffile=2021.7.2=pyhd3eb1b0_2
   - tk=8.6.11=h1ccaba5_0
+  - tomli=1.2.2=pyhd3eb1b0_0
   - toolz=0.11.2=pyhd3eb1b0_0
   - tornado=6.1=py39h27cfd23_0
   - traitlets=5.1.1=pyhd3eb1b0_0
@@ -155,3 +161,4 @@ dependencies:
     - threadpoolctl==3.1.0
     - toml==0.10.2
     - tqdm==4.64.0
+
