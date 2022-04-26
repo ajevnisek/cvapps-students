@@ -12,3 +12,7 @@ def test_matplotlib_version():
 
 def test_numpy_version():
     assert (np.__version__ == '1.22.3')
+
+def test_tqdm_version():
+    assert (tqdm.__version__ == '4.64.0')
+
